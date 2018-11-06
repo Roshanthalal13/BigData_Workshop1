@@ -101,6 +101,7 @@ Now we have to login into Hue, which you will find out on the top left corner of
 ## Step9:
 ...
 invalidate metadata;
+
 show tables;
 ...
 ![capture](https://user-images.githubusercontent.com/42624428/48044472-c1832c80-e151-11e8-8fc1-1170b6774542.PNG)
@@ -125,6 +126,8 @@ order by count desc
 limit 10;
 
 .....
+
+
 ![capture2](https://user-images.githubusercontent.com/42624428/48044506-e5df0900-e151-11e8-8bf7-5d6a83cfbfb8.PNG)
 
 This line of code will display top 10 revenue generating products.
@@ -148,13 +151,12 @@ limit 10;
 
 .....
 
+
+
+
 ![capture3](https://user-images.githubusercontent.com/42624428/48044525-f98a6f80-e151-11e8-96cd-67f6607980d5.PNG)
 
  
-
-
-
-
 
 
 
