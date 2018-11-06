@@ -90,6 +90,7 @@ Once the command is complete we can confirm that our data was imported into HDFS
 
 [cloudera@quickstart ~]$ hadoop dfs -ls /user/hive/warehouse/categories/
 .....
+![hadoopfscommand](https://user-images.githubusercontent.com/42624428/48044538-06a75e80-e152-11e8-80e3-ac1ead7bce06.PNG)
 
 
  
@@ -101,6 +102,7 @@ Now we have to login into Hue, which you will find out on the top left corner of
 invalidate metadata;
 show tables;
 ...
+![capture](https://user-images.githubusercontent.com/42624428/48044472-c1832c80-e151-11e8-8fc1-1170b6774542.PNG)
 
 You can also click on "Refresh Table List" Icon on the left to see your new tables in the side menu.
 After running the code in "Step9" you will see the name list of the tables you imported.
@@ -122,6 +124,7 @@ order by count desc
 limit 10;
 
 .....
+![capture2](https://user-images.githubusercontent.com/42624428/48044506-e5df0900-e151-11e8-8bf7-5d6a83cfbfb8.PNG)
 
 This line of code will display top 10 revenue generating products.
  
@@ -144,6 +147,7 @@ limit 10;
 
 .....
 
+![capture3](https://user-images.githubusercontent.com/42624428/48044525-f98a6f80-e151-11e8-96cd-67f6607980d5.PNG)
 
  
 
@@ -211,5 +215,22 @@ For example:
  --connect jdbc:mysql//{{cluster_data.manager_node_hostname}}:3306/retail_db \
 
  I was missing ':' in this code and i got that error. If you get this error too, then make sure you check and retype the correct command.
+
+
+
+
+
+
+
+
+
+
+
+## Reference 
+ https://www.youtube.com/watch?v=KuAKOOPbH00
+ 
+ https://www.wikitechy.com/tutorials/sqoop/sqoop-job?fbclid=IwAR3pTOvrAYzSTFgs_PmWRzleYwcFVOW9SAIAfqm2d1TkDj4QhCOYwYG2c1c
+ 
+ https://stackoverflow.com/questions/17194232/sqoop-import-multiple-tables?fbclid=IwAR3GQMgsI_BoZn9Ex0Qgdovt5cXCAA9ad8UTM1mWk1LZLYWT7U_NdpNN3KQ
 
 
