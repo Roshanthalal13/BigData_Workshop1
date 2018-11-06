@@ -88,6 +88,7 @@ Once the command is complete we can confirm that our data was imported into HDFS
 ...
 [cloudera@quickstart ~]$ hadoop dfs -ls /user/hive/warehouse/
 
+
 [cloudera@quickstart ~]$ hadoop dfs -ls /user/hive/warehouse/categories/
 .....
 ![hadoopfscommand](https://user-images.githubusercontent.com/42624428/48044538-06a75e80-e152-11e8-80e3-ac1ead7bce06.PNG)
