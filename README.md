@@ -216,3 +216,20 @@ For example:
  I was missing ':' in this code and i got that error. If you get this error too, then make sure you check and retype the correct command.
 
 
+
+
+
+
+
+
+
+
+
+ ## Reference 
+ https://www.youtube.com/watch?v=KuAKOOPbH00
+ 
+ https://www.wikitechy.com/tutorials/sqoop/sqoop-job?fbclid=IwAR3pTOvrAYzSTFgs_PmWRzleYwcFVOW9SAIAfqm2d1TkDj4QhCOYwYG2c1c
+ 
+ https://stackoverflow.com/questions/17194232/sqoop-import-multiple-tables?fbclid=IwAR3GQMgsI_BoZn9Ex0Qgdovt5cXCAA9ad8UTM1mWk1LZLYWT7U_NdpNN3KQ
+
+
